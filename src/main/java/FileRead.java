@@ -1,6 +1,7 @@
 package main.java;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,7 +15,11 @@ public class FileRead {
         this.filepath = filePath;
     }
 
-    public List<Person> getAllNames() throws IOException {
+    public void setFilePath(String filePath) {
+        this.filepath = filePath;
+    }
+
+    public List<Person> getAllNames() throws IOException, FileNotFoundException {
         List<Person> names = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(this.filepath));
 
