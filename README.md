@@ -6,4 +6,6 @@ javac main/java/NameSorter.java && java main/java/NameSorter "main/resources/nam
 
 ```
 
-This program will only work if the following file - names.txt is located in the same directory (/src/main/resources) as the program and will then output the sorted text file in the same directory as the program (/src/main/resources) called names-sorted.txt
+This program will only work if the following file - names.txt is located in the same directory (/src/main/resources) as the program and will then output the sorted text file in the same directory as the program (/src/main/resources) called names-sorted.txt. 
+
+All test cases were executed on IntelliJ IDEA
