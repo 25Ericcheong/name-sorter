@@ -6,7 +6,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Class used to specifically
+ * Class used to specifically call other specialized classes and sort names in between both reading and writing
+ * processes
  */
 public class NameSorter {
     public static void main(String[] args) throws IOException {
