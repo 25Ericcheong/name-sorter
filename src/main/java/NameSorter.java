@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Class used to specifically
+ */
 public class NameSorter {
     public static void main(String[] args) throws IOException {
         String filepath = args[0];
